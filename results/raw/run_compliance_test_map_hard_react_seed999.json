@@ -1,0 +1,20 @@
+{
+  "run_id": "compliance_test",
+  "map": "map_hard",
+  "strategy": "react",
+  "seed": 999,
+  "ticks": 100,
+  "timestamp": "2025-09-09T12:42:21.776167",
+  "metrics": {
+    "rescued": 12,
+    "deaths": 2,
+    "avg_rescue_time": 14.3,
+    "fires_extinguished": 6,
+    "roads_cleared": 2,
+    "energy_used": 35,
+    "tool_calls": 18,
+    "invalid_json": 1,
+    "replans": 0,
+    "hospital_overflow_events": 0
+  }
+}

@@ -1,0 +1,48 @@
+============================================================
+CRISIS SIMULATION EXPERIMENT SUMMARY REPORT
+============================================================
+
+Generated: 2025-09-09 14:27:29
+Total Experimental Runs: 18
+Strategies Tested: cot, react, reflexion
+Maps Evaluated: map_small, map_hard, map_medium
+Seeds per Strategy: 5
+
+OVERALL PERFORMANCE SUMMARY
+------------------------------
+Total Survivors Rescued: 34
+Total Deaths: 7
+Total Fires Extinguished: 19
+Total Energy Consumed: 110
+Total LLM Tool Calls: 56
+Total Invalid JSON: 2
+
+STRATEGY COMPARISON
+--------------------
+
+COT Strategy:
+  Avg Rescued: 0.0 ± 0.0
+  Avg Deaths: 0.0 ± 0.0
+  Avg Rescue Time: 0.0 ± 0.0
+  Avg Energy Used: 0.0 ± 0.0
+  Avg Tool Calls: 0.0 ± 0.0
+  Invalid JSON Rate: 0.00
+
+REACT Strategy:
+  Avg Rescued: 4.2 ± 5.9
+  Avg Deaths: 0.9 ± 1.2
+  Avg Rescue Time: 5.3 ± 7.4
+  Avg Energy Used: 13.8 ± 19.4
+  Avg Tool Calls: 7.0 ± 9.9
+  Invalid JSON Rate: 0.25
+
+REFLEXION Strategy:
+  Avg Rescued: 0.0 ± 0.0
+  Avg Deaths: 0.0 ± 0.0
+  Avg Rescue Time: 0.0 ± 0.0
+  Avg Energy Used: 0.0 ± 0.0
+  Avg Tool Calls: 0.0 ± 0.0
+  Invalid JSON Rate: 0.00
+
+============================================================
+Plots generated: rescued_deaths_by_strategy_map.png, cumulative_rescued_timeline.png, rescue_time_distribution.png

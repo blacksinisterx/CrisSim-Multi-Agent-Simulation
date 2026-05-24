@@ -1,0 +1,19 @@
+{
+  "run_id": "test_001",
+  "map": "map_small",
+  "strategy": "react",
+  "seed": 42,
+  "ticks": 50,
+  "metrics": {
+    "rescued": 10,
+    "deaths": 2,
+    "avg_rescue_time": 12.5,
+    "fires_extinguished": 5,
+    "roads_cleared": 1,
+    "energy_used": 30,
+    "tool_calls": 15,
+    "invalid_json": 0,
+    "replans": 1,
+    "hospital_overflow_events": 0
+  }
+}

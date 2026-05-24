@@ -1,0 +1,3 @@
+{"role": "system", "content": "You are a crisis management AI assistant."}
+{"role": "user", "content": "Current situation: 3 fires at locations [1,2], [5,7], [10,10]. 2 survivors at [3,4], [8,9]. Command all agents."}
+{"role": "assistant", "content": "FINAL_JSON: {\"commands\":[{\"agent\":\"15\",\"action\":\"move\",\"target\":[3,4]},{\"agent\":\"16\",\"action\":\"extinguish_fire\",\"target\":[1,2]}],\"strategy\":\"rescue priority\"}"}

@@ -1,0 +1,2 @@
+run_id,map,strategy,seed,ticks,rescued,deaths,avg_rescue_time,fires_extinguished,roads_cleared,energy_used,tool_calls,invalid_json,replans,hospital_overflow_events
+test_001,map_small,react,42,50,10,2,12.5,5,1,30,15,0,1,0

@@ -1,0 +1,27 @@
+{
+  "lessons": [],
+  "performance": [
+    {
+      "context_summary": {
+        "fires": 3,
+        "rubble": 2,
+        "survivors": 2
+      },
+      "decision": "The planned response may face challenges if the rubble clearance takes longer than anticipated or if the drone's battery life is insufficient for continuous monitoring. Alternative approaches could involve using the truck for initial fire suppression before clearing rubble, but this might delay access for the medic. Confidence in the chosen strategy is medium, as it balances immediate threats with the need for access and survivor rescue.",
+      "commands_count": 5
+    },
+    {
+      "context_summary": {
+        "fires": 3,
+        "rubble": 2,
+        "survivors": 2
+      },
+      "decision": "The planned response prioritizes immediate threats and survivors but may not fully account for potential future developments, such as additional fires or rubble. Alternative approaches could involve a more dynamic allocation of resources, adjusting priorities based on real-time feedback from the drone's reconnaissance. However, given the current information and past experiences, the chosen strategy seems to offer the best balance of urgency and efficiency. Confidence in this strategy is medium, as it is based on learned lessons but also acknowledges the unpredictability of crisis situations.",
+      "commands_count": 6
+    }
+  ],
+  "simple_rules": [
+    "survivors_first",
+    "rubble_blocking"
+  ]
+}

@@ -1,0 +1,3 @@
+{"role": "system", "content": "Crisis AI: Command ALL agents every turn."}
+{"role": "user", "content": "Crisis context at tick 3: 2 fires detected, 3 survivors need rescue"}
+{"role": "assistant", "content": "FINAL_JSON: {\"commands\":[{\"agent\":\"15\",\"action\":\"rescue_survivor\",\"target\":[2,3]},{\"agent\":\"16\",\"action\":\"extinguish_fire\",\"target\":[5,7]}],\"strategy\":\"rescue priority fire containment\"}"}
